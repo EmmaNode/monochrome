@@ -1,27 +1,30 @@
-
 body {
-		background: #ffffff;
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-		font-weight: 300;
-    overflow-x: hidden;
+  background: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  overflow-x: hidden;
 }
-
 
 /*---------------------------------------
     Typorgraphy              
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.5px;
 }
 
 h1 {
-    font-size: 62px;
-    padding-bottom: 14px;
-    margin-bottom: 0px;
+  font-size: 62px;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -41,11 +44,11 @@ h4 {
 }
 
 p {
-    color: #777;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: 0.2px;
+  color: #777;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.2px;
 }
 
 strong {
@@ -57,12 +60,11 @@ strong {
   border-color: transparent;
 }
 
-
 /*---------------------------------------
     General               
 -----------------------------------------*/
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -73,7 +75,9 @@ a {
   transition: 0.5s;
   text-decoration: none !important;
 }
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #4d638c;
   outline: none;
 }
@@ -113,7 +117,6 @@ a:hover, a:active, a:focus {
   letter-spacing: 4px;
 }
 
-
 /*---------------------------------------
     Preloader section              
 -----------------------------------------*/
@@ -139,7 +142,7 @@ a:hover, a:active, a:focus {
   border-radius: 40px;
   position: relative;
   -webkit-animation: sk-innerCircle 1s linear infinite;
-  animation: sk-innerCircle 1s linear infinite; 
+  animation: sk-innerCircle 1s linear infinite;
 }
 
 .sk-spinner-wordpress .sk-inner-circle {
@@ -150,41 +153,46 @@ a:hover, a:active, a:focus {
   position: absolute;
   border-radius: 8px;
   top: 5px;
-  left: 5px; 
+  left: 5px;
 }
 
 @-webkit-keyframes sk-innerCircle {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0); }
+    transform: rotate(0);
+  }
 
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 
 @keyframes sk-innerCircle {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0); }
+    transform: rotate(0);
+  }
 
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
-
+    transform: rotate(360deg);
+  }
+}
 
 /*---------------------------------------
     Main Navigation             
 -----------------------------------------*/
 
 .navbar-default {
-    background: #ffffff;
-    padding: 18px 0;
-    border: none;
-    margin-top: 62px;
+  background: #ffffff;
+  padding: 18px 0;
+  border: none;
+  margin-top: 62px;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
   border-color: transparent;
 }
 
@@ -198,81 +206,77 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #777;
-    font-size: 16px;
-    letter-spacing: 1px;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    padding-right: 22px;
-    padding-left: 22px;
+  color: #777;
+  font-size: 16px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #333 !important;
+  color: #333 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #777;
-    background-color: transparent;
+  color: #777;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav li a:hover,
- .navbar-default .navbar-nav .active > a {
-    color: #333;
-  }
+.navbar-default .navbar-nav .active > a {
+  color: #333;
+}
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #333;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-     border: none;
-     padding-top: 10px;
-  }
-
-.navbar-default .navbar-toggle .icon-bar {
-    background: #bdc3c7;
-    border-color: transparent;
-  }
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { 
+  color: #333;
   background-color: transparent;
 }
 
+.navbar-default .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
 
+.navbar-default .navbar-toggle .icon-bar {
+  background: #bdc3c7;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
 
 /*---------------------------------------
     Home section              
 -----------------------------------------*/
 
 #home {
-    background-size: cover;
-    background-position: center center;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-     align-items: center;
-    position: relative;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 #home hr {
   width: 82px;
   margin-top: 32px;
 }
-
-
 
 /*---------------------------------------
    About section              
@@ -309,8 +313,6 @@ a:hover, a:active, a:focus {
   padding-bottom: 2px;
 }
 
-
-
 /*---------------------------------------
    Portfolio section              
 -----------------------------------------*/
@@ -345,12 +347,12 @@ a:hover, a:active, a:focus {
 }
 
 #portfolio .portfolio-item {
-    position: absolute;
-    top:50%;
-    left: 50%;
-    -webkit-transform:translate(-50%,-50%);
-      -ms-transform:translate(-50%,-50%);
-          transform:translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
@@ -360,8 +362,6 @@ a:hover, a:active, a:focus {
 #portfolio .text-center {
   padding-top: 62px;
 }
-
-
 
 /*---------------------------------------
    Single Project section              
@@ -393,8 +393,6 @@ a:hover, a:active, a:focus {
   letter-spacing: 1px;
   padding-left: 14px;
 }
-
-
 
 /*---------------------------------------
    Contact section              
@@ -444,8 +442,9 @@ a:hover, a:active, a:focus {
   background: #000;
 }
 
-
-
+/* #demovid {
+  padding-left: 170px;
+} */
 /*---------------------------------------
    Blog section              
 -----------------------------------------*/
@@ -582,7 +581,7 @@ a:hover, a:active, a:focus {
   height: 45px;
 }
 
-.blog-comment-form input[type="submit"] {
+.blog-comment-form input[type='submit'] {
   background: #222;
   border-radius: 100px;
   border: none;
@@ -591,12 +590,10 @@ a:hover, a:active, a:focus {
   transition: all 0.4s ease-in-out;
 }
 
-.blog-comment-form input[type="submit"]:hover {
+.blog-comment-form input[type='submit']:hover {
   background: #000;
   border-color: transparent;
 }
-
-
 
 /*---------------------------------------
    Blog Single Post section              
@@ -606,16 +603,14 @@ a:hover, a:active, a:focus {
   padding-top: 16px;
 }
 
-
-
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
 
 footer {
-    border-top: 1px solid #f0f0f0;
-    padding: 100px 0px;
-    position: relative;
+  border-top: 1px solid #f0f0f0;
+  padding: 100px 0px;
+  position: relative;
 }
 
 footer .col-md-3 .fa {
@@ -636,49 +631,44 @@ footer .footer-copyright {
   padding-top: 16px;
 }
 
-
 /*---------------------------------------
    Social icon             
 -----------------------------------------*/
 
 .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .social-icon li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 .social-icon li a {
-    color: #777;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    margin: 22px 12px 10px 12px;
+  color: #777;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 22px 12px 10px 12px;
 }
 
 .social-icon li a:hover {
-    color: #000;
-    transform: scale(1.1);
+  color: #000;
+  transform: scale(1.1);
 }
-
-
 
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
 
-
 @media (max-width: 767px) {
-
   h1 {
     font-size: 38px;
   }
@@ -718,7 +708,4 @@ footer .footer-copyright {
   footer .col-md-4 {
     padding-top: 42px;
   }
-
 }
-
-
